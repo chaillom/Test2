@@ -5,9 +5,9 @@ import javax.swing.JFrame;
 
 public class Fenetre extends JFrame {
 
-	public Fenetre(){
-		this.setSize(200, 200);
+	public Fenetre(String title){
+		this.setSize(400, 400);
+		super.setTitle(title);
 	}
-	
-	}
+}
 	
